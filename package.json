@@ -1,6 +1,6 @@
 {
   "name": "simplater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast, minimalistic, logic-less string templating libray inspired by mustache",
   "main": "index.js",
   "scripts": {
