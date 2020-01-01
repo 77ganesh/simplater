@@ -1,7 +1,7 @@
 Simplater
 ======
 
-Fast, minimalistic, logic-less string templating libray inspired by [mustache]().
+Fast, minimalistic, logic-less string templating libray inspired by [mustache](https://mustache.github.io/).
 
 Features:
 1. Pure string substitution only. Avoids  [this](https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/).
@@ -10,7 +10,9 @@ Features:
 
 Template
 ---------
-Anything surrounded by double braces will be treated as a variable and substituted. ```{{ param }}```
+Anything surrounded by double braces will be treated as a variable and substituted.
+
+eg. ```{{ param }}```
 
 Example
 ---------
@@ -19,7 +21,7 @@ Example
 const simplater = require('simplater')
 
 const myTemplate = 'The quick {{colour}} fox jumps over the lazy dog'
-console.log(simplater.render(myTemplate, { colour: 'brown' })
+console.log(simplater.render(myTemplate, { colour: 'brown' }))
 
 // Output
 // The quick brown fox jumps over the lazy dog
