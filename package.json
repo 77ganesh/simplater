@@ -1,0 +1,25 @@
+{
+  "name": "simplater",
+  "version": "1.0.0",
+  "description": "Fast, minimalistic, logic-less string templating libray inspired by mustache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template",
+    "string",
+    "string-template",
+    "logic-less"
+  ],
+  "author": "77ganesh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77ganesh/simplater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/77ganesh/simplater/issues"
+  },
+  "homepage": "https://github.com/77ganesh/simplater#readme"
+}
